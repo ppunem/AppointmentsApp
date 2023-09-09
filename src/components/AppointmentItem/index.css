@@ -1,0 +1,32 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+.container {
+  border: 1px solid #b5b7c4;
+  border-radius: 15px;
+  padding: 15px;
+  width: 100%;
+}
+.title-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-weight: 500;
+  font-size: 15px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.date {
+  color: #b5b7c4;
+  font-size: 15px;
+}
+li {
+  list-style-type: none;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}

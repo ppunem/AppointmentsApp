@@ -1,0 +1,89 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+.bg {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.head {
+  font-weight: normal;
+}
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 25px;
+}
+.upper-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+.Label {
+  color: #b5b7c4;
+}
+.input-style {
+  border: 2px solid #b5b7c4;
+  margin-bottom: 8px;
+}
+.add-button {
+  background-color: #8b5cf6;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 25px;
+  width: 50px;
+}
+.image {
+  height: 250px;
+}
+hr {
+  width: 100%;
+  border: 1px solid##b5b7c4;
+}
+.lower-part {
+  display: flex;
+  flex-direction: column;
+}
+.appointments-starred-main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-heading {
+  font-weight: 900;
+  font-size: 18px;
+}
+.starred-button {
+  background-color: transparent;
+  border: 1px solid #b5b7c4;
+  color: #b5b7c4;
+  padding: 5px;
+  border-radius: 25px;
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+}
+.appointments-container {
+  display: flex;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
